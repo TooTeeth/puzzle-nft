@@ -34,11 +34,11 @@ function Mint() {
           Mint
         </button>
       </div>
-      <div>
+      <div className="mt-8">
         {metadata && (
           <>
             <img src={metadata.image} alt={metadata.name} />
-            <h1 className="mt-2 text-xl font-semibold">{metadata.name}</h1>
+            <h1 className="my-2 text-xl font-semibold">{metadata.name}</h1>
             <h3>{metadata.description}</h3>
           </>
         )}
